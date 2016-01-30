@@ -2,7 +2,6 @@
 title: "Human Activity Recognition Using Smartphones Dataset Version 1.0 - Tidy Dataset"
 author: "Tim Collart"
 date: "January 29, 2016"
-output: html_document
 ---
 
 ---
@@ -41,8 +40,8 @@ The tidy dataset includes the following files:
 =====================================================
 - 'README.md'
 - 'run_analysis.R': An R script that will download the raw dataset (from [here]( https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip)) if not already in the directory and extract the tidy dataset.
-- 'tidy_full.txt': The first tidy dataset containing measurements on the mean and the standard deviation of each feature. For more information please look at 'codebook.md'
-- 'tidy_average.txt': The second tidy dataset created from the first. It contains the average of each feature for each activity and each subject. For more information please look at 'codebook.md'
+- 'tidy_full.csv': The first tidy dataset containing measurements on the mean and the standard deviation of each feature. For more information please look at 'codebook.md'
+- 'tidy_average.csv': The second tidy dataset created from the first. It contains the average of each feature for each activity and each subject. For more information please look at 'codebook.md'
 
 ---
 
