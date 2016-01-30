@@ -46,8 +46,8 @@ The tidy dataset includes the following files:
 - 'README.md'
 - 'codebook.md'
 - 'run_analysis.R': An R script that will download the raw dataset (from [here]( https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip)) if not already in the directory and extract the tidy dataset.
-- 'tidy_full.csv': The first tidy dataset containing measurements on the mean and the standard deviation of each feature.
-- 'tidy_average.csv': The second tidy dataset created from the first. It contains the average of each feature for each activity and each subject.
+- 'tidy_full.txt': The first tidy dataset containing measurements on the mean and the standard deviation of each feature.
+- 'tidy_average.txt': The second tidy dataset created from the first. It contains the average of each feature for each activity and each subject.
 
 ---
 
@@ -87,7 +87,7 @@ These signals were used to estimate variables of the feature vector for each pat
 ---
 
 
-Tidy data set 1: 'tidy_full.csv':
+Tidy data set 1: 'tidy_full.txt':
 ===============================
 
 The variables that were estimated from each of these signals and included in the tidy dataset: 
@@ -113,7 +113,7 @@ Additionally three variables describe the activity (WALKING, WALKING_UPSTAIRS, W
 ---
 
 
-Tidy data set 2: 'tidy_average.csv':
+Tidy data set 2: 'tidy_average.txt':
 ===============================
 
 This tidy dataset contains all the variables from data set 1 except for the 'Set' variable. The variables are however averaged for each subject and each activity.

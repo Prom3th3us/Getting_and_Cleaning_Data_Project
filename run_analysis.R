@@ -51,12 +51,12 @@ left_join(act_labels, by="A") %>% select(-A)
 rm(directory, feat_names,act_labels, data_test, act_test, subj_test, data_train, act_train, subj_train, merged)
 
 ## output the full dataset
-write.csv(tidy_full, "tidy_full.csv", row.names = F, quote = F)
+write.table(tidy_full, "tidy_full.txt", row.names = F, quote = F)
 
 ## calculate the average of each variable for every subject and every activity
 tidy_average<- tidy_full %>% select(-Set) %>% group_by(Activity, Subject) %>% summarise_each(funs(mean))
 ## output the summerised dataset
-write.csv(tidy_average, "tidy_average.csv", row.names = F, quote = F)
+write.table(tidy_average, "tidy_average.txt", row.names = F, quote = F)
 
 
 
