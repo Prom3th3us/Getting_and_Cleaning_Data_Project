@@ -1,8 +1,6 @@
----
-title: "Human Activity Recognition Using Smartphones Dataset Version 1.0 - Tidy Dataset"
-author: "Tim Collart"
-date: "January 29, 2016"
----
+#Human Activity Recognition Using Smartphones Dataset Version 1.0 - Tidy Dataset
+### Tim Collart
+
 
 ---
 
